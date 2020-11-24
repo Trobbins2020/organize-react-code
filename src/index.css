@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+
+}
+
+#notenav {
+  margin: 10px;
+  width: 150px;
+}
+
+#main {
+  display: flex;
+  margin: 0 auto;
+  width: 40%;
+}
+
+
+.Box {
+  border: solid 1px black;
+  padding: 14px;
+  min-width: 600px;
+}
+
+.boxDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button,
+.linkto {
+  border: solid 1px black;
+  padding: 12px;
+  background-color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mx-3 {
+  margin: 20px;
+}
+
+.active li {
+  color: white;
+  background-color: black;
+}
+
+.red {
+  color: red;
+}
+
+.inputdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  margin: 10px 0px;
+}
+
+#name-input,
+#content-input,
+#folder_select,
+#name {
+  min-width: 200px;
+}
